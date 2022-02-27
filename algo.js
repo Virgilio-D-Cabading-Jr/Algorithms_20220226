@@ -4,7 +4,13 @@
  */
  const isPalindrome = (x) => {
     let strX = x.toString();
-    console.log(strX);
+
+    // edge Case
+    if (strX.length <= 2) {
+        return true;
+    }
+
+
     return true;
 };
 
