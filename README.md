@@ -5,3 +5,5 @@ Palindrome Number
 Origin: LeetCode
 
 Language: Javascript
+
+Platform: VS Code
