@@ -2,8 +2,9 @@
  * @param {number} x
  * @return {boolean}
  */
- var isPalindrome = function(x) {
+ const isPalindrome = (x) => {
     let strX = x.toString();
+    return true;
 };
 
-console.log({ isPalindrome(121) })
+console.log("isPalindrome 121:", isPalindrome(121));
