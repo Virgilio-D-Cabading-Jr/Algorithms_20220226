@@ -3,3 +3,5 @@
 Palindrome Number
 
 Origin: LeetCode
+
+Language: Javascript
