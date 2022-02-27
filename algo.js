@@ -12,6 +12,13 @@
 
     let front = 0;
     let back = strX.length - 1;
+    while (front < back) {
+        if ( strX[front] != strX[back] ) {
+            return false;
+        }
+        front++;
+        back--;
+    }
 
     return true;
 };
