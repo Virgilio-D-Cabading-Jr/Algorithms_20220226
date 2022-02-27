@@ -4,6 +4,7 @@
  */
  const isPalindrome = (x) => {
     let strX = x.toString();
+    console.log(strX);
     return true;
 };
 
