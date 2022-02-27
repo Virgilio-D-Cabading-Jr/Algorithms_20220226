@@ -10,6 +10,8 @@
         return true;
     }
 
+    let front = 0;
+    let back = strX.length - 1;
 
     return true;
 };
