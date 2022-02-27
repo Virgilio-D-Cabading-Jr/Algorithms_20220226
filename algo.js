@@ -6,7 +6,7 @@
     let strX = x.toString();
 
     // edge Case
-    if (strX.length <= 2) {
+    if (strX.length <= 1) {
         return true;
     }
 
@@ -25,3 +25,4 @@
 
 console.log("isPalindrome 121:", isPalindrome(121));
 console.log("isPalindrome -121:", isPalindrome(-121));
+console.log("isPalindrome 10:", isPalindrome(10));
